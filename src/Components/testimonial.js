@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import vector from "../images/Vector.png";
+import logo from "../images/logo.png";
 
 function Testimonial() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -34,7 +34,7 @@ function Testimonial() {
       <div className='w-[90%] font-sans text-white font-medium text-2xl text-right'>Testimonials</div>
       <div className='w-[90%] h-[1px]  border-[#E5E5E6] border-[0.5px]'></div>
       <div className="flex">
-        <img src={vector} className='h-[60px] w-[60px]' alt="Vector" />
+        <img src={logo} className='h-[60px] w-[60px]' alt="logo" />
         <div
           className='testomony'
           style={{

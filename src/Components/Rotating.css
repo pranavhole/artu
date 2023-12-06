@@ -23,16 +23,16 @@ ul{
 	padding: 0;
 }
 li{
-	background: var(--light-blue);
-	color: var(--text-color);
-	padding: 10px 20px;
+	/* background: var(--light-blue); */
+	/* color: var(--text-color); */
+	padding: 10px 0px;
 	border-radius: 7px;
 /* 	border: 1px outset var(--text-color); */
-	box-shadow: 
+	/* box-shadow: 
 		2px 2px 2px var(--dark-blue-shadow),		
 		2px 3px 3px var(--dark-blue-shadow),
 		2px 5px 5px var(--dark-blue-shadow),
-		2px 8px 8px var(--dark-blue-shadow);
+		2px 8px 8px var(--dark-blue-shadow); */
 }
 
 #container[data-animated]{
